@@ -16,4 +16,13 @@ for (int i = 0; i < vetor2.Length; i++)
 //vetorFinal = Enumerable.Concat(vetor1, vetor2).ToArray();
 Array.Sort(vetorFinal);
 Console.WriteLine(string.Join(",", vetorFinal));
-Console.ReadLine();
+/*for (int i = 0; i < vetor1.Length; i++)
+{
+    vetorFinal[contador] = vetor1[i];
+    contador++;
+}
+for (int i = 0; i < vetor2.Length; i++)
+{
+    vetorFinal[contador] = vetor2[i];
+    contador++;
+}*/
